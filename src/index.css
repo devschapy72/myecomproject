@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NAV_MENU_ACTIVE_ */
+@layer components{
+    .active_menu.active{
+      @apply text-blue-400 underline
+    }
+};
